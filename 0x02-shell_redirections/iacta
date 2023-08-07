@@ -1,0 +1,5 @@
+Tail command also comes with an ‘+’ option which is not present in the head command.
+ With this option tail command prints the data starting from specified line number of the file instead of end.
+For command: tail +n file_name, data will start printing from line number ‘n’ till the end of the file specifiedi.
+-f: This option is mainly used by system administration to monitor the growth of the log files written by many Unix program as they are running.
+This option shows the last ten lines of a file and will update when new lines are added.
